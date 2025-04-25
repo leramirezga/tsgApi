@@ -1,0 +1,45 @@
+/* Estilos para el componente de lista de vehículos */
+.vehicle-list {
+  padding: 20px;
+
+  .card {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    .card-header {
+      background-color: #f8f9fa;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .table {
+      margin-bottom: 0;
+
+      th {
+        background-color: #f8f9fa;
+      }
+
+      .badge {
+        font-size: 0.9em;
+        padding: 0.5em 0.75em;
+      }
+    }
+  }
+
+  .form-control, .form-select {
+    &:focus {
+      border-color: #80bdff;
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+  }
+
+  .btn {
+    margin-right: 5px;
+
+    &.btn-danger {
+      &:hover {
+        background-color: #dc3545;
+        border-color: #dc3545;
+      }
+    }
+  }
+} 
